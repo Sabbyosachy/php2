@@ -10,15 +10,15 @@
 <body>
     
 <div class="container pt-5 d-flex justify-content-center">
-<form action="home.php" method="get">
+<form action="home.php" method="post">
     <h3 class="text-center pb-5">Login</h3>
 <div class="mb-3">
-  Email:
-  <input type="email" class="form-control name="email" aria-describedby="emailHelp">
+  Name:
+  <input type="text" class="form-control name="username" aria-describedby="emailHelp">
 </div>
 <div class="mb-3">
   Password:
-  <input type="password" class="form-control name="password" >
+  <input type="text" class="form-control name="password" >
 </div>
 <button type="submit" class="btn btn-primary w-100">Submit</button>
 </form>
